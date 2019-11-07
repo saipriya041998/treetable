@@ -7,7 +7,6 @@ import { sampleData } from '../datasource1';
   styleUrls: ['./synctree.component.css']
 })
 export class SynctreeComponent implements OnInit {
-
   constructor() { }
   public data: Object[];
   public editSettings: EditSettingsModel;
@@ -15,7 +14,6 @@ export class SynctreeComponent implements OnInit {
   ngOnInit() {
     this.data = sampleData;
     this.editSettings = { allowEditing: true, allowAdding: true, allowDeleting: true, mode: 'Row' };
-    this.toolbarOptions = ['Add', 'Edit', 'Delete', 'Update', 'Cancel'];
+    this.toolbarOptions = ['Add', 'Edit', 'Delete', 'Update', 'Cancel','Search','CollapseAll','ExpandAll','ExcelExport'];
   }
-
 }

@@ -4,6 +4,7 @@ import { TreeGridModule } from '@syncfusion/ej2-angular-treegrid';
 import { AppComponent } from './app.component';
 import { SynctreeComponent } from './synctree/synctree.component';
 import { PageService, SortService, FilterService,EditService,ToolbarService } from '@syncfusion/ej2-angular-treegrid';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -11,7 +12,8 @@ import { PageService, SortService, FilterService,EditService,ToolbarService } fr
   ],
   imports: [
     BrowserModule,
-    TreeGridModule
+    TreeGridModule,
+    HttpClientModule
   ],
   providers: [PageService,
     SortService,
