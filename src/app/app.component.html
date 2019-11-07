@@ -1,6 +1,6 @@
 
 <!---------------using api ----------------->
-
+<!--
 <ejs-treegrid [dataSource]='arr' [treeColumnIndex]='1' childMapping='subtasks'>
   <e-columns>
       <e-column field='articleId' headerText='Task ID' textAlign='Right' width=70></e-column>
@@ -8,9 +8,12 @@
       <e-column field='content' headerText='Start Date' textAlign='Right' format='yMd' width=90></e-column>
       <e-column field='categoryName' headerText='Duration' textAlign='Right' width=80></e-column>
   </e-columns>
-  </ejs-treegrid>
+  </ejs-treegrid> -->
 
 
 <!----------without api---------->
 
-<app-synctree></app-synctree>
+<!-- <app-synctree></app-synctree> -->
+
+<app-side></app-side>
+<router-outlet></router-outlet>

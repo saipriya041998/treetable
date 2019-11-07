@@ -14,6 +14,6 @@ export class SynctreeComponent implements OnInit {
   ngOnInit() {
     this.data = sampleData;
     this.editSettings = { allowEditing: true, allowAdding: true, allowDeleting: true, mode: 'Row' };
-    this.toolbarOptions = ['Add', 'Edit', 'Delete', 'Update', 'Cancel','Search','CollapseAll','ExpandAll','ExcelExport'];
+    this.toolbarOptions = ['Add', 'Edit', 'Delete', 'Update', 'Cancel', 'Search', 'CollapseAll', 'ExpandAll', 'ExcelExport'];
   }
 }
