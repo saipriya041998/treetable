@@ -9,6 +9,7 @@ import { SidebarModule } from '@syncfusion/ej2-angular-navigations';
 import { SideComponent } from './side/side.component';
 import { routing } from './app.routing';
 import { HomeComponent } from './home/home.component';
+import { SomrComponent } from './somr/somr.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,9 @@ import { HomeComponent } from './home/home.component';
 
     SideComponent,
 
-    HomeComponent
+    HomeComponent,
+
+    SomrComponent
   ],
   imports: [
     BrowserModule,
