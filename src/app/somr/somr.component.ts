@@ -15,3 +15,4 @@ export class SomrComponent implements OnInit {
     window.print();
   }
 }
+
